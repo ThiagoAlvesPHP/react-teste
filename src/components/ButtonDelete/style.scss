@@ -1,0 +1,12 @@
+.delete {
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease .3s;
+    background-color: red;
+
+    &:hover {
+        background-color: rgba(255, 0, 0, .7);
+        transform: scale(1.10);
+    }
+}
