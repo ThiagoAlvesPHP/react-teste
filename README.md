@@ -1,3 +1,10 @@
+## Instructions
+- Node 16
+- Clone the project
+- Project root terminal
+- yarn install
+- yarn start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
