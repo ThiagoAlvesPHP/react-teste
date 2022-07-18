@@ -41,6 +41,9 @@ export function HomeView() {
       if (!response.data.error) {
         setProducts(response.data.list);
         setCount(response.data.list.length); 
+      } else {
+        setProducts(null);
+        setCount(0);
       }
     });
 
@@ -125,6 +128,8 @@ export function HomeView() {
     setVisible(true);
     setProductId(id);
   }
+
+  console.log(products);
 
   return (
     <div className='home'>
